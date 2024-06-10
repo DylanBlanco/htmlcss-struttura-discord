@@ -5,7 +5,6 @@
     box-sizing: border-box;
 }
 
-
 /*debug-header*/
 .debug .container .login{
     background-color: #A1C8D5;
@@ -58,6 +57,31 @@
 
 main>*{
     height: 250px;
-    border: 1px dashed black;
+    border: 1px solid black;
 }
 /*MAIN*/
+.box {
+    display: flex;
+    width: 80%;
+    height: 80%;
+}
+.section-main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.pink, .blue {
+    border: 1px dashed black;
+    width: 80%;
+}
+.blue {
+    background-color: #1F90FF;
+    width: 80%;
+}
+.pink {
+    background-color: #FEC1CB;
+    width: 20%;
+}
+section:nth-child(even) {
+    background-color: #D3D3D3;
+}
