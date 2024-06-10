@@ -6,7 +6,7 @@
 }
 
 /*debug-header*/
-.debug .container .login{
+.debug .container .login, .bottone{
     background-color: #A1C8D5;
     height: 50px;
 }
@@ -28,20 +28,13 @@
     align-items: center;
     justify-content: center;
 }
-
-.login>div{
+.login-box{
+    width: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
     background-color: yellow;
     border: 1px dashed black;
-    width: 200px;
-}
-
-.login :nth-child(2) {
-    text-align: center;
-    width: 400px;
-}
-
-.login :nth-child(3) {
-    text-align: end;
 }
 
 .header-pink{
@@ -113,8 +106,8 @@ main>section:nth-child(4) {
     height: 90%;
     display: flex;
     justify-content: center;
+    padding-bottom: 10px;
 }
-
 .dark-box>* {
     background-color: #23B2AA;
     width: 80%;
@@ -125,4 +118,28 @@ main>section:nth-child(4) {
     background-color: #F08180;
     width: calc(100%*2);
     border: 1px dashed black;    
+}
+
+.bottone {
+    border-top: 1px solid white;
+    background-color: #22272A;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+.bot-box {
+    width: 80%;
+    height: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #69CCAA;
+}
+.bot-box>* {
+    border: 1px dashed black;
+    background-color: #CB939B;
+    height: 80%;
+    width: calc(100%/10);
+    align-self: center;
+    text-align: center;
 }
