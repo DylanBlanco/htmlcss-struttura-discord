@@ -6,10 +6,32 @@
 }
 
 /*debug*/
-
-
+.debug .container .login{
+    background-color: #A1C8D5;
+    height: 50px;
+}
 /*main*/
 .container{
     max-width: 1000px;
-    margin: 0 auto;
+} 
+
+.login{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.login>div{
+    background-color: yellow;
+    border: 1px dashed black;
+    width: 200px;
+}
+
+.login :nth-child(2) {
+    text-align: center;
+    width: 400px;
+}
+
+.login :nth-child(3) {
+    text-align: end;
 }
